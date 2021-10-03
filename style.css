@@ -1,0 +1,171 @@
+body {
+    font-family:verdana;    
+    width: 100%;
+    max-width: 1024px;
+  }
+           
+        .item-header {
+            display: grid;
+            width: 1024px;           
+            height:76px;
+            grid-template-columns:20% 15% 15% 15% 20% 15%; 
+        }
+
+     
+
+
+.item-orange{
+    background-color:#e9700d;
+    height: 76px;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+}
+
+.item-menu{
+    background-color:#3085a1;
+    height: 76px;
+    padding:23px;
+    border-style: solid;
+    border-width: 2px;
+    text-align:center;
+    
+}
+
+.item-login{
+    background-color:#6696c4;
+    height: 76px;
+    border-style: solid;
+    border-width: 2px;
+    text-align:center;
+    padding:23px;
+}
+
+.main-empty{
+    display: grid;
+    width:1024px;
+    height:auto;   
+     grid-template-columns:69% 31%;
+}
+
+.main-left{
+    /*width: 707px;*/
+    height: 672px;
+    background-color:#fed965 ;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.main-right{
+   /*width:317px;*/
+    height: 672px;
+    background-color:#c4d5a0;  
+    border-style: solid;
+    border-width: 2px;
+    padding-left: 20px;  
+}
+
+.item-small-main-header{
+    margin: 20px;
+    width:200px;
+    height:69px;   
+    background-color: #dce2cc;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.item-sub-text{
+    margin:20px;
+    width: auto;
+    height: 178px;
+    border-width: 2px;
+    background-color: #dce2cc;
+    border-style: solid;
+    border-width: 2px;
+    padding:10px ;
+}
+
+.item-article-nested{
+    display: grid;
+    
+    grid-template-columns:repeat(2, 1fr);
+}
+
+.item-article-1{
+    margin-left:20px;
+    margin-top: 0px;
+    width: 328px;
+    height: 328px;   
+    background-color: #dce2cc;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.item-article-2{
+    margin-left: 26px;
+    width: 303px;
+    height: 328px;
+    border-width: 2px;
+    background-color: #dce2cc;
+    border-style: solid;
+    border-width: 2px;    
+}
+
+.item-site-content{
+    margin: 30px;
+    width: 250px;
+    height: 180px;
+    border-style: solid;
+  border-width: 2px;
+    background-color: #dce2cc;
+    
+}
+
+.footer {
+    width:1024px;
+    height:69px;
+    background-color: #7030a0;
+    border-style: solid;
+    border-width: 2px;
+    text-align: center;
+}       
+       
+    .item-header {
+        width: 1024px;
+    }
+    
+    .login-main{
+        display: grid;
+        width:1024px;
+        height:400px;   
+        background-color:#dce2cc;
+    }
+        
+     
+       
+
+    
+ /*  <div class="main-emty">
+
+        <div class="main-left">
+            <div class="item-small-main-header">
+            </div>
+            <div class="item-sub-text">
+            </div>
+            <div class="item-article-nested">
+            <div class="item-article-1">                
+            </div>
+            <div class="item-article-2"> 
+            </div>               
+            </div>
+
+        </div>    
+
+        <div class="main-right">
+            <div class="item-site-content">                
+            </div>
+        </div> 
+</div>
+*/
+
+
